@@ -21,7 +21,7 @@ ser = serial.Serial(
   - Port which the SBUS receiver is connected to.
   - Default: /dev/ttyUSB0
 - **publish_rate**:
-  - The publish rate of the output sensor_msgs/Joy topic
+  - The publish rate (Hz) of the output sensor_msgs/Joy topic
   - Default: 20
 - **invert_channels**:
   - List of channels to be inverted.
